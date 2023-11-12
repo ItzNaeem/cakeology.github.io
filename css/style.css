@@ -3,7 +3,7 @@
     --primary: #e84e78;
     --secondary: #15161b;
     --light: #FDF5EB;
-    --dark: #1E1916;
+    --dark: #15161b;
 }
 
 h4,
@@ -23,6 +23,7 @@ h6,
 .my-6 {
     margin-top: 6rem;
     margin-bottom: 6rem;
+    border-radius: 10px;
 }
 
 .back-to-top {
@@ -139,6 +140,12 @@ h6,
         transition: .5s;
         opacity: 1;
     }
+}
+
+.logo{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 
