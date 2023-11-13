@@ -1680,7 +1680,7 @@ progress {
 .form-control:focus {
     color: #545454;
     background-color: #fff;
-    border-color: #f5d39b;
+    border-color: #e8a0b3;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(234, 166, 54, 0.25)
 }

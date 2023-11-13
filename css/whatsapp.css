@@ -1,32 +1,36 @@
-.container{
-	background-color: #fdf5eb;
+.box{
 	border-radius: 10px;
 	padding: 30px;
-	width: 450px;
+	width: 90%;
+	margin-left: 5%;
 }
-.container p{
+.box p{
 	margin: 20px 0;
+}
+.text{
+	text-align: center;
 }
 form div{
 	display: flex;
 	justify-content: space-between;
 	gap: 5px;
+	
+}
+
+span{
+	width: 100%;
 }
 span input{
 	width: 100%;
 	padding: 10px;
 	margin: 5px 0 20px 0;
-	background-color: #eee;
-	border: none;
-	outline: none;
+	
 }
 textarea{
 	width: 100%;
 	padding: 10px;
 	margin-top: 5px;
-	background-color: #eee;
-	border: none;
-	outline: none;
+	
 }
 button{
 	background-color: #e84e78;
@@ -35,9 +39,13 @@ button{
 	color: white;
 	border: none;
 	margin-top: 20px;
+	align-items: center;
+	position: relative;
+	margin-left: 45%;
 }
 button:hover{
 	background-color: #15161b;
 	cursor: pointer;
 	transition: .2s;
 }
+
