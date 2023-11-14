@@ -1,0 +1,23 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+<<<<<<< HEAD:.github/workflows/master.yml
+        server: ftp.cakeologywithjumana.com
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /public_html
+=======
+        server: 162.241.224.146
+        username: cakeolo1
+        password: ${{ secrets.ftp_password }}
+>>>>>>> cd025ea3c394a09d4373b11c24bc15ac6ee9016e:.github/workflows/main.yml
