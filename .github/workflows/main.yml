@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.cakeologywithjumana.com
-        username: admin
+        server: 162.241.224.146
+        username: cakeolo1
         password: ${{ secrets.ftp_password }}
