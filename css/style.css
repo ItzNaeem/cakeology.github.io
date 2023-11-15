@@ -145,6 +145,12 @@ h6,
     width: 250px;
     height: 50px;
     border-radius: 10px;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 
@@ -486,12 +492,15 @@ h6,
 
 .copyright {
     background: #111111;
+    transition: .3s;
 }
 
 .copyright a {
     color: var(--primary);
+    transition: .3s;
 }
 
 .copyright a:hover {
     color: var(--light);
+    transition: .3s;
 }

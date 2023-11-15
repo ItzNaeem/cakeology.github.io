@@ -42,10 +42,11 @@ button{
 	align-items: center;
 	position: relative;
 	margin-left: 45%;
+	transition: .5s;
 }
 button:hover{
 	background-color: #15161b;
 	cursor: pointer;
-	transition: .2s;
+	transition: .5s;
 }
 
