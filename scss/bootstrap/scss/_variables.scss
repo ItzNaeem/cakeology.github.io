@@ -292,7 +292,7 @@ $link-hover-color:                        shift-color($link-color, $link-shade-p
 $link-hover-decoration:                   null !default;
 
 $stretched-link-pseudo-element:           after !default;
-$stretched-link-z-index:                  1 !default;
+$stretched-link-z-./:                  1 !default;
 
 // Paragraphs
 //
@@ -893,21 +893,21 @@ $form-validation-states: (
 ) !default;
 // scss-docs-end form-validation-states
 
-// Z-index master list
+// Z-./ master list
 //
 // Warning: Avoid customizing these values. They're used for a bird's eye view
 // of components dependent on the z-axis and are designed to all work together.
 
-// scss-docs-start zindex-stack
-$zindex-dropdown:                   1000 !default;
-$zindex-sticky:                     1020 !default;
-$zindex-fixed:                      1030 !default;
-$zindex-modal-backdrop:             1040 !default;
-$zindex-offcanvas:                  1050 !default;
-$zindex-modal:                      1060 !default;
-$zindex-popover:                    1070 !default;
-$zindex-tooltip:                    1080 !default;
-// scss-docs-end zindex-stack
+// scss-docs-start z./-stack
+$z./-dropdown:                   1000 !default;
+$z./-sticky:                     1020 !default;
+$z./-fixed:                      1030 !default;
+$z./-modal-backdrop:             1040 !default;
+$z./-offcanvas:                  1050 !default;
+$z./-modal:                      1060 !default;
+$z./-popover:                    1070 !default;
+$z./-tooltip:                    1080 !default;
+// scss-docs-end z./-stack
 
 
 // Navs

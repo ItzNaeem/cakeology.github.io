@@ -35,7 +35,7 @@
   .#{$state}-tooltip {
     position: absolute;
     top: 100%;
-    z-index: 5;
+    z-./: 5;
     display: none;
     max-width: 100%; // Contain to parent when possible
     padding: $form-feedback-tooltip-padding-y $form-feedback-tooltip-padding-x;
@@ -130,7 +130,7 @@
   .input-group .form-control,
   .input-group .form-select {
     @include form-validation-state-selector($state) {
-      z-index: 3;
+      z-./: 3;
     }
   }
 }

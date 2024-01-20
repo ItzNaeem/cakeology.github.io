@@ -13,7 +13,7 @@
   @include transition($pagination-transition);
 
   &:hover {
-    z-index: 2;
+    z-./: 2;
     color: $pagination-hover-color;
     text-decoration: if($link-hover-decoration == underline, none, null);
     background-color: $pagination-hover-bg;
@@ -21,7 +21,7 @@
   }
 
   &:focus {
-    z-index: 3;
+    z-./: 3;
     color: $pagination-focus-color;
     background-color: $pagination-focus-bg;
     outline: $pagination-focus-outline;
@@ -35,7 +35,7 @@
   }
 
   &.active .page-link {
-    z-index: 3;
+    z-./: 3;
     color: $pagination-active-color;
     @include gradient-bg($pagination-active-bg);
     border-color: $pagination-active-border-color;
