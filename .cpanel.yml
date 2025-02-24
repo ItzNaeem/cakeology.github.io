@@ -1,5 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/naeem/cakeologywithjumana.com/
+- export DEPLOYPATH=/home/naeem/public_html/
 - cp -r * $DEPLOYPATH
